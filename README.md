@@ -85,7 +85,7 @@
 1. [Object类](./研究Object类/README.md)
 1. [Function类](./研究Function类/README.md)
 1. [Math类](./研究Math类/README.md)
-1. [Data类](./研究Data类/README.md)
+1. [Date类](./研究Date类/README.md)
 1. [Global对象](./研究全局对象/README.md)
 1. [RegExp类型](./正则表达式/README.md)
 1. [定时器](./正则表达式/README.md)
