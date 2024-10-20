@@ -53,7 +53,7 @@ eval()方法就像是一个完整的 ECMAScript 解析器,它只接受一个参�
     var testVar;
     console.log(testVar);//undefined
     console.log(msg);//Uncaught ReferenceError: msg is not defined
-    eval('var msg = "hello world eval"');
+    eval('var msg = "hello world"');
     eval("console.log(msg)"); //"hello world"
 
 > 严格模式下，在外部访问不到 eval() 中创建的任何变量或函数，因此前面两个例子都会导致错误。同样，在严格模式下，为 eval 赋值也会导致错误
