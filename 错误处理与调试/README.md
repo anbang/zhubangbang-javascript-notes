@@ -25,7 +25,7 @@
 
 **如果用try-catch-finally；**
 
-虽然try-catch语句中是可选的，但是finally子句只要用；里面的代码都会执行；无论try和catch里面是什么代码都阻止不了执行finally里面的代码；即时是用了return语句；
+虽然try-catch语句中是可选的，但是finally子句只要用；里面的代码都会执行；无论try和catch里面是什么代码都阻止不了执行finally里面的代码；即使是用了return语句；
 
 >     function testError(){
         try{

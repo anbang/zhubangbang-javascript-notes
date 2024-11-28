@@ -78,7 +78,7 @@ getFullYear():直接获取 Tue Sep 13 2016 17:12:15 GMT+0800 (中国标准时间
 
 ##### 计算程序的耗时
 
-Data.now() 方法，返回表示调用这个方法时的日期和时间的毫秒数。这个方法简化了使用 Data 对象分析代码的工作;
+Date.now() 方法，返回表示调用这个方法时的日期和时间的毫秒数。这个方法简化了使用 Date 对象分析代码的工作;
 
     //取得开始时间
     var start = Date.now();
@@ -90,7 +90,7 @@ Data.now() 方法，返回表示调用这个方法时的日期和时间的毫秒
     var end = Date.now();
     console.log(end-start);
 
-支持 Data.now() 方法的浏览器包括 IE9+、Firefox 3+、Safari 3+、Opera 10.5 和 Chrome。在不支持它的浏览器中，使用+操作符把 Data 对象转换成字符串，也可以达到同样的目的。
+支持 Date.now() 方法的浏览器包括 IE9+、Firefox 3+、Safari 3+、Opera 10.5 和 Chrome。在不支持它的浏览器中，使用+操作符把 Date 对象转换成字符串，也可以达到同样的目的。
 
     //取得开始时间
     var start = +Date.now();
